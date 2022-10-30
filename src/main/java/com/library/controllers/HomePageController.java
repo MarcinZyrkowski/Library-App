@@ -12,7 +12,7 @@ public class HomePageController {
     private static final String GREETING_MESSAGE = "hello world from library app";
 
     @RequestMapping(value = "/library", method = RequestMethod.GET)
-    public ResponseEntity<String> hello() {
+    public ResponseEntity<String> getHomePage() {
         return new ResponseEntity<>(GREETING_MESSAGE, HttpStatus.OK);
     }
 
