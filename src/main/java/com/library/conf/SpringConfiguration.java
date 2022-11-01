@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 
 @Configuration
-@ComponentScan(basePackages = {"com.company"})
+@ComponentScan(basePackages = {"com.library"})
 @PropertySource({"application.properties"})
 public class SpringConfiguration {
 
